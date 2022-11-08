@@ -28,24 +28,33 @@ import static org.assertj.core.api.Assertions.assertThat;
  * */
 public class TestClass {
     int n = 144;
-    @Test
-    public void test() {
-        List<Integer> list = new ArrayList<>();
-        if(n!=0){
+//    @Test
+//    public void test() {
+//        List<Integer> list = new ArrayList<>();
+//        if(n!=0){
+//
+//            for (int i = 1; i <= n; i++) {
+//                if(n%i==0){
+//                    list.add(i);
+//                }
+//            }
+//        }
+//
+//        Collections.sort(list);
+//
+//        int[] answer = list.stream().mapToInt(i->i).toArray();
+//        assertThat(true);
+//    }
 
-            for (int i = 1; i <= n; i++) {
-                if(n%i==0){
-                    list.add(i);
-                }
-            }
-        }
-
-        Collections.sort(list);
-
-        int[] answer = list.stream().mapToInt(i->i).toArray();
-        assertThat(true);
+    public static void main(String[] args) {
+         int n = 144;
+         int answer = 2;
+         Double root = Math.sqrt(n);
+         System.out.println(root);
+         if(root==root.intValue()){
+             answer = 1;
+         }
     }
-
 
 
 }
