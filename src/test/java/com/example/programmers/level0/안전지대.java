@@ -1,7 +1,6 @@
 package com.example.programmers.level0;
 
 import org.junit.jupiter.api.Test;
-import sun.java2d.pipe.SpanIterator;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
