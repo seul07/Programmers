@@ -17,9 +17,9 @@ public class 비밀지도 {
     public void test() {
         String[] arr3 = new String[arr1.length];
         for (int i = 0; i < arr1.length; i++) {
-            String binary = Integer.toBinaryString(arr1[i]);
+            String binary = Long.toBinaryString(arr1[i]);
             if(binary.length()!=n){
-                binary = String.format("%0"+n+"d",Integer.parseInt(binary));
+                binary = String.format("%0"+n+"d",Long.parseLong(binary));
             }
             arr3[i] = binary;
         }
@@ -27,9 +27,9 @@ public class 비밀지도 {
 
         String[] arr4 = new String[arr2.length];
         for (int i = 0; i < arr2.length; i++) {
-            String binary = Integer.toBinaryString(arr2[i]);
+            String binary = Long.toBinaryString(arr2[i]);
             if(binary.length()!=n){
-                binary = String.format("%0"+n+"d",Integer.parseInt(binary));
+                binary = String.format("%0"+n+"d",Long.parseLong(binary));
             }
             arr4[i] = binary;
         }
