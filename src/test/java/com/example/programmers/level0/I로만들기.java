@@ -21,7 +21,6 @@ public class I로만들기 {
                 .replace("i", "l")
                 .replace("j", "l")
                 .replace("k", "l");
-        System.out.println(answer);
         assertThat(true);
     }
 }
